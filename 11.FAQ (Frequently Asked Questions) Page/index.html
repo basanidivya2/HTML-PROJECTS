@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FAQ Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .faq-section {
+      margin-bottom: 20px;
+    }
+    .question {
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .answer {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Frequently Asked Questions</h1>
+
+  <div class="faq-section">
+    <div class="question">What is HTML?</div>
+    <div class="answer">
+      <p>HTML stands for HyperText Markup Language. It is the standard markup language for creating web pages and web applications.</p>
+    </div>
+  </div>
+
+  <div class="faq-section">
+    <div class="question">What is CSS?</div>
+    <div class="answer">
+      <p>CSS stands for Cascading Style Sheets. It is used for styling HTML elements to enhance the look and feel of web pages.</p>
+    </div>
+  </div>
+
+  <div class="faq-section">
+    <div class="question">What is JavaScript?</div>
+    <div class="answer">
+      <p>JavaScript is a scripting language used to create and control dynamic website content. It adds interactivity to web pages.</p>
+    </div>
+  </div>
+
+  <!-- Add more FAQ sections with questions and answers -->
+
+  <script>
+    // JavaScript to toggle the visibility of answers on click
+    const questions = document.querySelectorAll('.question');
+
+    questions.forEach(question => {
+      question.addEventListener('click', () => {
+        question.nextElementSibling.classList.toggle('answer');
+      });
+    });
+  </script>
+
+</body>
+</html>
