@@ -1,0 +1,50 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4caf50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Activity Tracker Styles */
+  .activity {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .activity-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%;
+  }
+  
+  .log-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
