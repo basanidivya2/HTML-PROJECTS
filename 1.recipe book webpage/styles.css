@@ -1,0 +1,17 @@
+body {
+
+}
+#heading {
+    background-color: rgba(207, 100, 54, 0.906);
+    text-align: center;
+    color: rgb(237, 222, 9);
+}
+.art1 {
+    background-color: darkcyan;
+    color: midnightblue;
+}
+.tea {font-family:sans-serif;
+color:darkorange;}
+#footer {background-color: blueviolet;
+color: mediumblue;
+font-family: cursive;}
